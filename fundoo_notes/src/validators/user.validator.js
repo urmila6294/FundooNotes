@@ -1,9 +1,14 @@
 import Joi from '@hapi/joi';
 
-export const newUserValidator = (req, res, next) => {
+export const 
+
+newUserValidator = (req, res, next) => {
   const schema = Joi.object({
-    name: Joi.string().min(4).required()
-  });
+    firstName: Joi.string().min(3).required(),
+    lastName: Joi.string().min(3).required(),
+    emailId: Joi.string().min(3).required(),
+    password: Joi.string().min(3).required()
+ });
   const { error, value } = schema.validate(req.body);
   if (error) {
     next(error);
