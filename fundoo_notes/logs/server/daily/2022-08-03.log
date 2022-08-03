@@ -1,0 +1,96 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T14:32:19.855Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T14:32:22.546Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T14:37:16.347Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T14:37:18.983Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 32
+    at JSON.parse (<anonymous>)
+    at parse (C:\Urmila data\data\WorkSpace\FundooProject\FundooNotes\fundoo_notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Urmila data\data\WorkSpace\FundooProject\FundooNotes\fundoo_notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Urmila data\data\WorkSpace\FundooProject\FundooNotes\fundoo_notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Urmila data\data\WorkSpace\FundooProject\FundooNotes\fundoo_notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Urmila data\data\WorkSpace\FundooProject\FundooNotes\fundoo_notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-03T14:37:30.590Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T14:39:54.090Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T14:39:56.771Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T14:40:12.864Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T14:40:15.404Z"}
+error: 
+    status - 500 
+    message - TypeError: console.error is not a constructor
+    at _callee$ (C:\Urmila data\data\WorkSpace\FundooProject\FundooNotes\fundoo_notes\src\services\/user.service.js:12:11)
+    at tryCatch (C:\Urmila data\data\WorkSpace\FundooProject\FundooNotes\fundoo_notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Urmila data\data\WorkSpace\FundooProject\FundooNotes\fundoo_notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Urmila data\data\WorkSpace\FundooProject\FundooNotes\fundoo_notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Urmila data\data\WorkSpace\FundooProject\FundooNotes\fundoo_notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Urmila data\data\WorkSpace\FundooProject\FundooNotes\fundoo_notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-03T14:56:02.045Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T14:56:24.743Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T14:56:24.779Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T14:56:26.709Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T14:56:26.734Z"}
+error: 
+    status - 500 
+    message - ReferenceError: error is not defined
+    at _callee$ (C:\Urmila data\data\WorkSpace\FundooProject\FundooNotes\fundoo_notes\src\services\/user.service.js:4:34)
+    at tryCatch (C:\Urmila data\data\WorkSpace\FundooProject\FundooNotes\fundoo_notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Urmila data\data\WorkSpace\FundooProject\FundooNotes\fundoo_notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Urmila data\data\WorkSpace\FundooProject\FundooNotes\fundoo_notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Urmila data\data\WorkSpace\FundooProject\FundooNotes\fundoo_notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Urmila data\data\WorkSpace\FundooProject\FundooNotes\fundoo_notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-03T14:56:33.740Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T15:01:05.391Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T15:01:05.421Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T15:02:24.009Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T15:02:24.034Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T15:02:50.250Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T15:02:50.277Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T15:03:37.338Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T15:03:37.369Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T15:06:28.591Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T15:06:28.631Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: lastName: Path `lastName` is required., firstName: Path `firstName` is required.
+    at model.Document.invalidate (C:\Urmila data\data\WorkSpace\FundooProject\FundooNotes\fundoo_notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Urmila data\data\WorkSpace\FundooProject\FundooNotes\fundoo_notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Urmila data\data\WorkSpace\FundooProject\FundooNotes\fundoo_notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-03T15:07:08.184Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T15:07:41.396Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T15:07:41.426Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T15:07:44.352Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T15:07:44.378Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-03T15:07:51.748Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T15:12:00.957Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T15:12:00.987Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T15:12:03.376Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T15:12:03.410Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T15:12:07.658Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T15:12:07.690Z"}
