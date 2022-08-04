@@ -14,18 +14,17 @@ export const userRegisteration = async (body) => {
   else{
     const data = await User.create(body);
     return data;
-  }
-};
+  }};
 
 //user login
-//export const userRegisteration = async (body) => {
-  //const data = await User.findOne({emailId:body.emailId});
- // if(data){
-   // if(data.password == body.password){
-     // return data;}
-      //else{
-      //  throw new error("Invalid Password!"); }}
- // else{
-    //throw new error("User not Exist!");
-  //}
-   // }
+export const userLogin = async (body) => {
+    const logindata = await User.findOne({EmailId:body.EmailId})
+    if(logindata){
+      if(logindata.password == body.password){
+        return logindata;}
+      else{
+        throw new Error("Invalid Password!");
+      }}
+    else{
+      throw new Error("User not Exist!");
+    } };

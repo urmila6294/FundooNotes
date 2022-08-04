@@ -19,26 +19,6 @@ export const getAllUsers = async (req, res, next) => {
     next(error);
   }
 };
-
-/**
- * Controller to get a single user
- * @param  {object} req - request object
- * @param {object} res - response object
- * @param {Function} next
- */
-export const getUser = async (req, res, next) => {
-  try {
-    const data = await UserService.getUser(req.params._id);
-    res.status(HttpStatus.OK).json({
-      code: HttpStatus.OK,
-      data: data,
-      message: 'User fetched successfully'
-    });
-  } catch (error) {
-    next(error);
-  }
-};
-
 /**
  * Controller to create a new user
  * @param  {object} req - request object
@@ -51,47 +31,32 @@ export const userRegisteration = async (req, res, next) => {
     res.status(HttpStatus.CREATED).json({
       code: HttpStatus.CREATED,
       data: data,
-      message: 'Registeration successful'
+      message: 'User Registeration successful'
     });
   } catch (error) {
-    next(error);
-  }
-};
+  }res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
+  };
 
 /**
- * Controller to update a user
+ * Controller to login a user
  * @param  {object} req - request object
  * @param {object} res - response object
  * @param {Function} next
  */
-export const updateUser = async (req, res, next) => {
+export const userLogin = async (req, res, next) => {
   try {
-    const data = await UserService.updateUser(req.params._id, req.body);
+    const data = await UserService.userLogin(req.body);
     res.status(HttpStatus.ACCEPTED).json({
       code: HttpStatus.ACCEPTED,
       data: data,
-      message: 'User updated successfully'
+      message: 'User login successfully'
     });
   } catch (error) {
-    next(error);
-  }
-};
-
-/**
- * Controller to delete a user
- * @param  {object} req - request object
- * @param {object} res - response object
- * @param {Function} next
- */
-export const deleteUser = async (req, res, next) => {
-  try {
-    await UserService.deleteUser(req.params._id);
-    res.status(HttpStatus.OK).json({
-      code: HttpStatus.OK,
-      data: [],
-      message: 'User deleted successfully'
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
     });
-  } catch (error) {
-    next(error);
-  }
-};
+  }};
