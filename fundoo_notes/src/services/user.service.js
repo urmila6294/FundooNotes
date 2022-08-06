@@ -23,13 +23,13 @@ export const userRegisteration = async (body) => {
 //user login
 export const userLogin = async (body) => {
     const data = await User.findOne({emailId:body.emailId})
-    const ispasswordcorrect = await bcrypt.compare(body.password,data.password)
-    if(data){
+     if(data){
+      const ispasswordcorrect = await bcrypt.compare(body.password,data.password)
       if(ispasswordcorrect){
       return data;
     }else{
-      throw new error("Password not match!")
+      throw new Error("Password not match!")
     } }
   else{
-    throw new error("Invalid EmailID!")
+    throw new Error("Invalid EmailID!")
   }};
