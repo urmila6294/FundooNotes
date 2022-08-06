@@ -1,0 +1,26 @@
+info: ::1 - - [06/Aug/2022:03:07:45 +0000] "GET /api/v1/note/62ed1c3b40bcd455a44abd9d HTTP/1.1" 200 282 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [06/Aug/2022:03:08:27 +0000] "GET /api/v1/note/getAllNote HTTP/1.1" 200 738 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [06/Aug/2022:03:09:16 +0000] "DELETE /api/v1/note/62ed1c3b40bcd455a44abd9d HTTP/1.1" 200 53 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [06/Aug/2022:14:25:54 +0000] "GET /api/v1/note/getAllNote HTTP/1.1" 200 518 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [06/Aug/2022:14:26:35 +0000] "GET /api/v1/note/62ed27ba435fd82110bb7a01 HTTP/1.1" 200 285 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [06/Aug/2022:14:28:08 +0000] "PUT /api/v1/note/62ed27ba435fd82110bb7a01 HTTP/1.1" 200 277 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [06/Aug/2022:14:28:46 +0000] "DELETE /api/v1/note/62ed27ba435fd82110bb7a01 HTTP/1.1" 200 53 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [06/Aug/2022:14:31:05 +0000] "PUT /api/v1/note/62ed1c6c40bcd455a44abd9f/isArchive HTTP/1.1" 202 292 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [06/Aug/2022:14:31:49 +0000] "PUT /api/v1/note/62ed1c6c40bcd455a44abd9f/isDelete HTTP/1.1" 200 285 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [06/Aug/2022:14:36:04 +0000] "POST /api/v1/note/addNote HTTP/1.1" 201 273 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [06/Aug/2022:14:36:54 +0000] "POST /api/v1/note/62ee7c547bb1db533c570d05/isDelete HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [06/Aug/2022:14:38:20 +0000] "PUT /api/v1/note/62ee7c547bb1db533c570d05/isDelete HTTP/1.1" 200 270 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [06/Aug/2022:14:38:50 +0000] "PUT /api/v1/note/62ee7c547bb1db533c570d05/isArchive HTTP/1.1" 202 276 "-" "PostmanRuntime/7.29.2"
+
