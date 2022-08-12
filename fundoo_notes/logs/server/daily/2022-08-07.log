@@ -1,0 +1,30 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-07T09:19:42.211Z"}
+info: Connected to the database. {"timestamp":"2022-08-07T09:19:42.237Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-07T10:25:32.446Z"}
+info: Connected to the database. {"timestamp":"2022-08-07T10:25:32.476Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-07T10:26:42.234Z"}
+info: Connected to the database. {"timestamp":"2022-08-07T10:26:42.255Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-07T10:29:15.773Z"}
+info: Connected to the database. {"timestamp":"2022-08-07T10:29:15.792Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-07T10:32:49.093Z"}
+info: Connected to the database. {"timestamp":"2022-08-07T10:32:49.123Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-07T10:32:55.011Z"}
+info: Connected to the database. {"timestamp":"2022-08-07T10:32:55.036Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Title" is required 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-07T10:40:00.166Z"}
+error: 
+    status - 500 
+    message - ValidationError: "isArchive" is not allowed 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-07T10:40:12.121Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-07T17:56:53.613Z"}
+info: Connected to the database. {"timestamp":"2022-08-07T17:56:53.650Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-07T18:01:28.435Z"}
+info: Connected to the database. {"timestamp":"2022-08-07T18:01:28.457Z"}

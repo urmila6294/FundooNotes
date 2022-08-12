@@ -10,7 +10,7 @@ import jwt from 'jsonwebtoken';
  * @param {Function} next
  */
 export const userAuth = async (req, res, next) => {
-  try {
+  
     let bearerToken = req.header('Authorization');
     if (!bearerToken)
       throw {
@@ -18,12 +18,58 @@ export const userAuth = async (req, res, next) => {
         message: 'Authorization token is required'
       };
     bearerToken = bearerToken.split(' ')[1];
+    jwt.verify(bearerToken, process.env.NEW_SECRET_KEY,function(err,decoded){
+      if(err){
+       res.status(HttpStatus.BAD_REQUEST).json({
+          code: HttpStatus.BAD_REQUEST,
+          message: 'Authorization token is Incorrect'
+        });
+      }else{
+        req.body.userId = decoded.emailId;
+        next();
+      }
+    });
+   };
 
-    const { user } = await jwt.verify(bearerToken, 'your-secret-key');
-    res.locals.user = user;
-    res.locals.token = bearerToken;
-    next();
-  } catch (error) {
-    next(error);
-  }
+//making the middleware for reset password
+
+export const passwordAuth = async (req, res, next) => {
+  
+  let bearerToken = req.header('Authorization');
+  if (!bearerToken)
+    throw {
+      code: HttpStatus.BAD_REQUEST,
+      message: 'Authorization token is required'
+    };
+  bearerToken = bearerToken.split(' ')[1];
+  jwt.verify(bearerToken, process.env.NEW_SECRET_KEY,function(err,decoded){
+    if(err){
+     res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: 'Authorization token is Incorrect'
+      });
+    }else{
+      req.body.EmailId = decoded.EmailId;
+      next();
+    }
+  });  
 };
+// export const passwordAuth = async (req, res, next) => {
+//   try {
+//     let passwordToken = req.header('Authorization');
+//     if (!passwordToken)
+//       throw {
+//         code: HttpStatus.BAD_REQUEST,
+//         message: 'Authorization token is required'
+//       };
+//     passwordToken = passwordToken.split(' ')[1];
+//     const user = await jwt.verify(passwordToken, process.env.SECRET_KEY_PASSWORD);
+//     req.body.emailId = user.emailId;
+//     next();
+//   } catch (error) {
+//     res.status(HttpStatus.BAD_REQUEST).json({
+//       code: HttpStatus.BAD_REQUEST,
+//       message: `UnAuthorised token`
+//     });
+//   }
+// };
