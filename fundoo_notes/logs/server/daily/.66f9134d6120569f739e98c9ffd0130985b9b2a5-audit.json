@@ -24,6 +24,36 @@
             "date": 1659755265101,
             "name": "logs\\server\\daily\\2022-08-06.log",
             "hash": "dcd46e2d2518dab1dd7b2f681b8526123f1609a5d44c181be2f967cef8715b07"
+        },
+        {
+            "date": 1659863982149,
+            "name": "logs\\server\\daily\\2022-08-07.log",
+            "hash": "2ca19cdf7cc146a3c9f8ce9710e9cfde27b5b9128f40aea68e7e4a54493d2f0b"
+        },
+        {
+            "date": 1659926851896,
+            "name": "logs\\server\\daily\\2022-08-08.log",
+            "hash": "65469551046123769e94562007d344e6c044460c81a6277497e3d1fdb16fa5c3"
+        },
+        {
+            "date": 1660037293230,
+            "name": "logs\\server\\daily\\2022-08-09.log",
+            "hash": "6a6be3cdc3b517c2ca650a736ef7be6c58155b94acb51fbb62695926e14181cf"
+        },
+        {
+            "date": 1660119944185,
+            "name": "logs\\server\\daily\\2022-08-10.log",
+            "hash": "faab5ed2956c58cae84b5dd971a481fddf62ca2ff2f10d847b58debe89bbdf92"
+        },
+        {
+            "date": 1660188530321,
+            "name": "logs\\server\\daily\\2022-08-11.log",
+            "hash": "0aa344a408cb345d26cdbbbcb03bba9156557771e90e86608f121cfd1ce6fc1b"
+        },
+        {
+            "date": 1660270974251,
+            "name": "logs\\server\\daily\\2022-08-12.log",
+            "hash": "3114de5789db602b4bfbaad94ffb100417a1d8edfc8bad28840de9c958e2b11b"
         }
     ],
     "hashType": "sha256"

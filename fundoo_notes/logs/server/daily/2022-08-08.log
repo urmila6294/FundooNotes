@@ -1,0 +1,45 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T02:47:31.951Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T02:47:31.981Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T03:10:56.974Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T03:10:57.005Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T03:11:04.965Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T03:11:04.992Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T03:11:54.280Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T03:11:54.304Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T13:37:30.634Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T13:37:30.658Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T14:50:04.586Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T14:50:04.610Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Urmila data\data\WorkSpace\FundooProject\FundooNotes\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\Urmila data\data\WorkSpace\FundooProject\FundooNotes\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\Urmila data\data\WorkSpace\FundooProject\FundooNotes\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Urmila data\data\WorkSpace\FundooProject\FundooNotes\Fundoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Urmila data\data\WorkSpace\FundooProject\FundooNotes\Fundoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Urmila data\data\WorkSpace\FundooProject\FundooNotes\Fundoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/getAllNote 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-08T14:50:06.498Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T14:54:01.546Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T14:54:01.570Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T14:58:34.476Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T14:58:34.504Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T15:04:41.321Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T15:04:41.350Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T15:06:00.688Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T15:06:00.709Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T15:08:24.663Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T15:08:24.686Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T15:11:29.454Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T15:11:29.483Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T15:16:02.677Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T15:16:02.700Z"}
