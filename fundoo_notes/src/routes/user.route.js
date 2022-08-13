@@ -7,10 +7,10 @@ import { passwordAuth } from '../middlewares/auth.middleware';
 const router = express.Router();
 
 //route to create a new user Registeration
-router.post('', newUserValidator, userController.userRegisteration);
+router.post('/registeration', newUserValidator, userController.userRegisteration);
 
 //to get all registered users
-router.get('',userController.getAllUsers);
+router.get('/getAll',userController.getAllUsers);
 
 //route to login
 router.post('/login',userController.userLogin);
