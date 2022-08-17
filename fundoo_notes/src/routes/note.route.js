@@ -2,6 +2,7 @@ import express from 'express';
 import * as noteController from '../controllers/note.controller';
 import { noteValidator } from '../validators/note.validator';
 import { userAuth } from '../middlewares/auth.middleware';
+import { redisCheck } from '../middlewares/redis.middleware';
 
 const router = express.Router();
 
@@ -9,7 +10,7 @@ const router = express.Router();
 router.post('/addNote',userAuth,noteController.addNote);
 
 //route to get all note
-router.get('/getAllNote',userAuth,noteController.getAllNote);
+router.get('/getAllNote',userAuth,redisCheck,noteController.getAllNote);
 
 //route to get single note by id
 router.get('/:_id',userAuth, noteController.getSingleNote);

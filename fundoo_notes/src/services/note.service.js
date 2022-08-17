@@ -1,4 +1,5 @@
 import Note from '../models/note.model';
+import { client } from '../config/redis';
 
 //Adding new note 
 export const addNote = async (body) => {
@@ -9,6 +10,7 @@ export const addNote = async (body) => {
 //Getting all note
 export const getAllNote = async (body) => {
     const data = await Note.find({userId:body.userId});
+    await client.set('getData',JSON.stringify(data));
     return data;
 };
 

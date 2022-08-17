@@ -44,6 +44,7 @@ export const forgetPassword = async (body) => {
   if (data) {
     const token = jwt.sign({ emailId: data.emailId, _id: data._id }, process.env.SECRET_KEY_PASSWORD);
     const result = await utilservice.sendMail(data.emailId, token);
+    console.log(result);
     return result;
   } else {
     throw new Error("User not exist");
@@ -55,6 +56,7 @@ export const resetPassword = async (body) => {
   const passwordHash = await bcrypt.hash(body.password, saltRounds);
   body.password = passwordHash;
   const data = await User.findOneAndUpdate({ emailId: body.emailId }, { password: body.password }, { new: true });
+  console.log(data);
   if (data) {
     return data;
   } else {

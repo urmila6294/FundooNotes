@@ -1,0 +1,318 @@
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:28:10 +0000] "POST /api/v1/users/registeration HTTP/1.1" 400 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:28:10 +0000] "POST /api/v1/users/login HTTP/1.1" 202 246 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:28:15 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 249 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:28:15 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 400 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:28:15 +0000] "POST /api/v1/note/addNote HTTP/1.1" 201 306 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:28:15 +0000] "GET /api/v1/note/62fc523f80182bd12070d806 HTTP/1.1" 200 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:28:15 +0000] "GET /api/v1/note/getAllNote HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:28:15 +0000] "PUT /api/v1/note/62fc523f80182bd12070d806 HTTP/1.1" 200 308 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:28:15 +0000] "DELETE /api/v1/note/62fc523f80182bd12070d806 HTTP/1.1" 200 53 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:28:15 +0000] "PUT /api/v1/note/62fc523f80182bd12070d806/isArchive HTTP/1.1" 202 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:28:15 +0000] "PUT /api/v1/note/62fc523f80182bd12070d806/isDelete HTTP/1.1" 200 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:37:06 +0000] "POST /api/v1/users/registeration HTTP/1.1" 400 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:37:06 +0000] "POST /api/v1/users/login HTTP/1.1" 202 246 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:37:10 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 249 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:37:10 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 400 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:37:10 +0000] "POST /api/v1/note/addNote HTTP/1.1" 201 306 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:37:10 +0000] "GET /api/v1/note/62fc545651e161eda01f6a57 HTTP/1.1" 200 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:37:10 +0000] "GET /api/v1/note/getAllNote HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:37:10 +0000] "PUT /api/v1/note/62fc545651e161eda01f6a57 HTTP/1.1" 200 308 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:37:10 +0000] "DELETE /api/v1/note/62fc545651e161eda01f6a57 HTTP/1.1" 200 53 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:37:10 +0000] "PUT /api/v1/note/62fc545651e161eda01f6a57/isArchive HTTP/1.1" 202 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:37:10 +0000] "PUT /api/v1/note/62fc545651e161eda01f6a57/isDelete HTTP/1.1" 200 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:44:50 +0000] "POST /api/v1/users/registeration HTTP/1.1" 400 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:44:50 +0000] "POST /api/v1/users/login HTTP/1.1" 202 246 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:44:54 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 249 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:44:54 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 400 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:44:54 +0000] "POST /api/v1/note/addNote HTTP/1.1" 201 306 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:44:54 +0000] "GET /api/v1/note/62fc562621a44a229c637ff0 HTTP/1.1" 200 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:44:54 +0000] "GET /api/v1/note/getAllNote HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:44:55 +0000] "PUT /api/v1/note/62fc562621a44a229c637ff0 HTTP/1.1" 200 308 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:44:55 +0000] "DELETE /api/v1/note/62fc562621a44a229c637ff0 HTTP/1.1" 200 53 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:44:55 +0000] "PUT /api/v1/note/62fc562621a44a229c637ff0/isArchive HTTP/1.1" 202 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:44:55 +0000] "PUT /api/v1/note/62fc562621a44a229c637ff0/isDelete HTTP/1.1" 200 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:46:19 +0000] "POST /api/v1/users/registeration HTTP/1.1" 400 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:46:19 +0000] "POST /api/v1/users/login HTTP/1.1" 202 246 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:46:23 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 249 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:46:23 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 400 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:46:23 +0000] "POST /api/v1/note/addNote HTTP/1.1" 201 306 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:46:23 +0000] "GET /api/v1/note/62fc567f6b97e5f310fac940 HTTP/1.1" 200 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:46:23 +0000] "GET /api/v1/note/getAllNote HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:46:23 +0000] "PUT /api/v1/note/62fc567f6b97e5f310fac940 HTTP/1.1" 200 308 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:46:23 +0000] "DELETE /api/v1/note/62fc567f6b97e5f310fac940 HTTP/1.1" 200 53 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:46:23 +0000] "PUT /api/v1/note/62fc567f6b97e5f310fac940/isArchive HTTP/1.1" 202 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:46:23 +0000] "PUT /api/v1/note/62fc567f6b97e5f310fac940/isDelete HTTP/1.1" 200 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:55:36 +0000] "POST /api/v1/users/registeration HTTP/1.1" 400 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:55:36 +0000] "POST /api/v1/users/login HTTP/1.1" 202 246 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:55:41 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 249 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:55:41 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 400 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:55:41 +0000] "POST /api/v1/note/addNote HTTP/1.1" 201 306 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:55:41 +0000] "GET /api/v1/note/62fc58ad44c3badb106170f1 HTTP/1.1" 200 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:55:41 +0000] "GET /api/v1/note/getAllNote HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:55:41 +0000] "PUT /api/v1/note/62fc58ad44c3badb106170f1 HTTP/1.1" 200 308 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:55:41 +0000] "DELETE /api/v1/note/62fc58ad44c3badb106170f1 HTTP/1.1" 200 53 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:55:41 +0000] "PUT /api/v1/note/62fc58ad44c3badb106170f1/isArchive HTTP/1.1" 202 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:55:41 +0000] "PUT /api/v1/note/62fc58ad44c3badb106170f1/isDelete HTTP/1.1" 200 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:58:04 +0000] "POST /api/v1/users/registeration HTTP/1.1" 400 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:58:04 +0000] "POST /api/v1/users/login HTTP/1.1" 202 246 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:58:08 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 249 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:58:08 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 400 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:58:08 +0000] "POST /api/v1/note/addNote HTTP/1.1" 201 306 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:58:08 +0000] "GET /api/v1/note/62fc59409e1b88d788d0a3a2 HTTP/1.1" 200 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:58:08 +0000] "GET /api/v1/note/getAllNote HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:58:08 +0000] "PUT /api/v1/note/62fc59409e1b88d788d0a3a2 HTTP/1.1" 200 308 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:58:08 +0000] "DELETE /api/v1/note/62fc59409e1b88d788d0a3a2 HTTP/1.1" 200 53 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:58:08 +0000] "PUT /api/v1/note/62fc59409e1b88d788d0a3a2/isArchive HTTP/1.1" 202 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:02:58:09 +0000] "PUT /api/v1/note/62fc59409e1b88d788d0a3a2/isDelete HTTP/1.1" 200 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:03:00:47 +0000] "POST /api/v1/users/registeration HTTP/1.1" 400 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:03:00:47 +0000] "POST /api/v1/users/login HTTP/1.1" 202 246 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:03:00:52 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 249 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:03:00:52 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 200 323 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:03:00:52 +0000] "POST /api/v1/note/addNote HTTP/1.1" 201 306 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:03:00:52 +0000] "GET /api/v1/note/62fc59e4624813f3dc6330fd HTTP/1.1" 200 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:03:00:52 +0000] "GET /api/v1/note/getAllNote HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:03:00:52 +0000] "PUT /api/v1/note/62fc59e4624813f3dc6330fd HTTP/1.1" 200 308 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:03:00:52 +0000] "DELETE /api/v1/note/62fc59e4624813f3dc6330fd HTTP/1.1" 200 53 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:03:00:52 +0000] "PUT /api/v1/note/62fc59e4624813f3dc6330fd/isArchive HTTP/1.1" 202 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:03:00:52 +0000] "PUT /api/v1/note/62fc59e4624813f3dc6330fd/isDelete HTTP/1.1" 200 57 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [17/Aug/2022:04:28:39 +0000] "POST /api/v1/users/login HTTP/1.1" 400 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Aug/2022:04:28:42 +0000] "POST /api/v1/users/login HTTP/1.1" 400 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Aug/2022:04:29:05 +0000] "POST /api/v1/users/login HTTP/1.1" 400 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Aug/2022:04:30:58 +0000] "POST /api/v1/users/registeration HTTP/1.1" 400 326 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Aug/2022:04:32:29 +0000] "POST /api/v1/users/login HTTP/1.1" 202 246 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Aug/2022:04:34:23 +0000] "POST /api/v1/note/addNote HTTP/1.1" 201 303 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Aug/2022:04:35:00 +0000] "POST /api/v1/note/addNote HTTP/1.1" 201 300 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Aug/2022:04:35:35 +0000] "GET /api/v1/note/getAllNotes HTTP/1.1" 400 134 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Aug/2022:05:06:08 +0000] "POST /api/v1/note/addNote HTTP/1.1" 201 301 "-" "PostmanRuntime/7.29.2"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:12:59:37 +0000] "POST /api/v1/users/registeration HTTP/1.1" 400 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:12:59:42 +0000] "POST /api/v1/users/login HTTP/1.1" 202 246 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:12:59:42 +0000] "POST /api/v1/users/login HTTP/1.1" 400 51 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:12:59:47 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 400 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:12:59:47 +0000] "POST /api/v1/note/addNote HTTP/1.1" 201 306 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:12:59:47 +0000] "GET /api/v1/note/62fce64339204afd902691ea HTTP/1.1" 200 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:12:59:48 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 249 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:08:17 +0000] "POST /api/v1/users/registeration HTTP/1.1" 400 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:08:22 +0000] "POST /api/v1/users/login HTTP/1.1" 202 246 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:08:22 +0000] "POST /api/v1/users/login HTTP/1.1" 400 51 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:08:27 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 400 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:08:27 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 400 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:08:28 +0000] "POST /api/v1/note/addNote HTTP/1.1" 201 306 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:08:28 +0000] "GET /api/v1/note/62fce84c0dc475e6582c3d64 HTTP/1.1" 200 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:08:28 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 249 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:10:27 +0000] "POST /api/v1/users/registeration HTTP/1.1" 400 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:10:28 +0000] "POST /api/v1/users/login HTTP/1.1" 202 246 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:10:33 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 400 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:10:33 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 249 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:10:33 +0000] "POST /api/v1/note/addNote HTTP/1.1" 201 306 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:10:33 +0000] "GET /api/v1/note/62fce8c9813d36fdfce28228 HTTP/1.1" 200 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:28:22 +0000] "POST /api/v1/users/registeration HTTP/1.1" 400 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:28:22 +0000] "POST /api/v1/users/login HTTP/1.1" 202 246 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:28:28 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 249 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:28:28 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 200 323 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:28:28 +0000] "POST /api/v1/note/addNote HTTP/1.1" 201 306 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:28:28 +0000] "GET /api/v1/note/62fcecfcfc54850a355ec6be HTTP/1.1" 200 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:28:38 +0000] "PUT /api/v1/note/62fcecfcfc54850a355ec6be HTTP/1.1" 200 308 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:28:38 +0000] "DELETE /api/v1/note/62fcecfcfc54850a355ec6be HTTP/1.1" 200 53 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:28:38 +0000] "PUT /api/v1/note/62fcecfcfc54850a355ec6be/isArchive HTTP/1.1" 202 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:28:38 +0000] "PUT /api/v1/note/62fcecfcfc54850a355ec6be/isDelete HTTP/1.1" 200 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:32:20 +0000] "POST /api/v1/users/registeration HTTP/1.1" 400 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:32:30 +0000] "POST /api/v1/users/login HTTP/1.1" 202 246 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:32:30 +0000] "POST /api/v1/users/login HTTP/1.1" 400 51 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:32:35 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 249 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:32:35 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 400 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:32:35 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 200 323 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:32:35 +0000] "POST /api/v1/note/addNote HTTP/1.1" 201 306 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:32:35 +0000] "GET /api/v1/note/62fcedf3f6020d080d56e497 HTTP/1.1" 200 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:32:46 +0000] "PUT /api/v1/note/62fcedf3f6020d080d56e497 HTTP/1.1" 200 308 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:32:46 +0000] "DELETE /api/v1/note/62fcedf3f6020d080d56e497 HTTP/1.1" 200 53 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:32:46 +0000] "PUT /api/v1/note/62fcedf3f6020d080d56e497/isArchive HTTP/1.1" 202 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:32:46 +0000] "PUT /api/v1/note/62fcedf3f6020d080d56e497/isDelete HTTP/1.1" 200 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:35:34 +0000] "POST /api/v1/users/registeration HTTP/1.1" 400 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:35:34 +0000] "POST /api/v1/users/login HTTP/1.1" 202 246 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:35:39 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 249 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:35:39 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 200 323 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:35:39 +0000] "POST /api/v1/note/addNote HTTP/1.1" 201 306 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:35:39 +0000] "GET /api/v1/note/62fceeab47f225090d87fd0c HTTP/1.1" 200 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:35:49 +0000] "PUT /api/v1/note/62fceeab47f225090d87fd0c HTTP/1.1" 200 308 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:35:49 +0000] "DELETE /api/v1/note/62fceeab47f225090d87fd0c HTTP/1.1" 200 53 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:35:49 +0000] "PUT /api/v1/note/62fceeab47f225090d87fd0c/isArchive HTTP/1.1" 202 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:35:49 +0000] "PUT /api/v1/note/62fceeab47f225090d87fd0c/isDelete HTTP/1.1" 200 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:39:50 +0000] "POST /api/v1/users/registeration HTTP/1.1" 400 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:39:50 +0000] "POST /api/v1/users/login HTTP/1.1" 202 246 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:39:56 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 249 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:39:56 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 200 323 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:39:56 +0000] "POST /api/v1/note/addNote HTTP/1.1" 201 306 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:39:56 +0000] "GET /api/v1/note/62fcefacddff06f86869b9f2 HTTP/1.1" 200 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:40:06 +0000] "PUT /api/v1/note/62fcefacddff06f86869b9f2 HTTP/1.1" 200 308 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:40:06 +0000] "DELETE /api/v1/note/62fcefacddff06f86869b9f2 HTTP/1.1" 200 53 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:40:06 +0000] "PUT /api/v1/note/62fcefacddff06f86869b9f2/isArchive HTTP/1.1" 202 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:13:40:06 +0000] "PUT /api/v1/note/62fcefacddff06f86869b9f2/isDelete HTTP/1.1" 200 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:16:07:48 +0000] "POST /api/v1/users/registeration HTTP/1.1" 400 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:16:07:48 +0000] "POST /api/v1/users/login HTTP/1.1" 202 246 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:16:07:54 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 249 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:16:07:54 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 200 323 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:16:07:54 +0000] "POST /api/v1/note/addNote HTTP/1.1" 201 306 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:16:07:54 +0000] "GET /api/v1/note/62fd125afedae9f720e21a94 HTTP/1.1" 200 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:16:08:04 +0000] "PUT /api/v1/note/62fd125afedae9f720e21a94 HTTP/1.1" 200 308 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:16:08:04 +0000] "DELETE /api/v1/note/62fd125afedae9f720e21a94 HTTP/1.1" 200 53 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:16:08:04 +0000] "PUT /api/v1/note/62fd125afedae9f720e21a94/isArchive HTTP/1.1" 202 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [17/Aug/2022:16:08:04 +0000] "PUT /api/v1/note/62fd125afedae9f720e21a94/isDelete HTTP/1.1" 200 57 "-" "node-superagent/3.8.3"
+
