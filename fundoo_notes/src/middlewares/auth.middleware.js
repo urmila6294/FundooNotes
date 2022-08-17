@@ -42,34 +42,21 @@ export const passwordAuth = async (req, res, next) => {
       message: 'Authorization token is required'
     };
   bearerToken = bearerToken.split(' ')[1];
-  jwt.verify(bearerToken, process.env.NEW_SECRET_KEY,function(err,decoded){
+  console.log(bearerToken);
+  jwt.verify(bearerToken, process.env.SECRET_KEY_PASSWORD,function(err,decoded){
+    console.log(decoded);
     if(err){
      res.status(HttpStatus.BAD_REQUEST).json({
         code: HttpStatus.BAD_REQUEST,
         message: 'Authorization token is Incorrect'
       });
-    }else{
-      req.body.EmailId = decoded.EmailId;
+    }
+    else{
+      
+      req.body.emailId = decoded.emailId;
       next();
     }
+
   });  
 };
-// export const passwordAuth = async (req, res, next) => {
-//   try {
-//     let passwordToken = req.header('Authorization');
-//     if (!passwordToken)
-//       throw {
-//         code: HttpStatus.BAD_REQUEST,
-//         message: 'Authorization token is required'
-//       };
-//     passwordToken = passwordToken.split(' ')[1];
-//     const user = await jwt.verify(passwordToken, process.env.SECRET_KEY_PASSWORD);
-//     req.body.emailId = user.emailId;
-//     next();
-//   } catch (error) {
-//     res.status(HttpStatus.BAD_REQUEST).json({
-//       code: HttpStatus.BAD_REQUEST,
-//       message: `UnAuthorised token`
-//     });
-//   }
-// };
+
