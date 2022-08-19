@@ -42,3 +42,35 @@ const oAuth2Client = new google.auth.OAuth2(
      return error;
      }
    }
+
+   export async function registerMail(email) {
+    try {
+      const accessToken = await oAuth2Client.getAccessToken();
+  
+      const transport = nodemailer.createTransport({
+        service: 'gmail',
+        auth: {
+          type: 'OAuth2',
+          user: 'yoursdemo123@gmail.com',
+          clientId: CLIENT_ID,
+          clientSecret: CLIENT_SECRET,
+          refreshToken: REFRESH_TOKEN,
+          accessToken: accessToken,
+        },
+      });
+  
+      const mailOptions = {
+        from: 'YOURSDEMO123 <yoursdemo123@gmail.com>',
+        to: email,
+        subject: 'User registration',
+        text: 'Your new user registeration created',
+        html: `<h1> Registered Successfully!</h1>`,
+      };
+  
+      const result = await transport.sendMail(mailOptions);
+      return result;
+      
+    } catch (error) {
+      return error;
+    }
+  }
