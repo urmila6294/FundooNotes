@@ -1,0 +1,40 @@
+info: ::1 - - [19/Aug/2022:02:24:59 +0000] "GET /api/v1/note/62fdb699b71a3d141defe191 HTTP/1.1" 400 233 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:27:24 +0000] "GET /api/v1/note/62fdb699b71a3d141defe191 HTTP/1.1" 400 233 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:05:51:23 +0000] "POST /api/v1/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:05:51:38 +0000] "POST /api/v1/users/login HTTP/1.1" 400 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:05:52:46 +0000] "POST /api/v1/users/login HTTP/1.1" 202 246 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:05:54:27 +0000] "POST /api/v1/note/getAllNote HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:05:56:12 +0000] "GET /api/v1/note/getAllNote HTTP/1.1" - - "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:05:56:41 +0000] "POST /api/v1/note/addNote HTTP/1.1" 201 293 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:05:57:03 +0000] "GET /api/v1/note/getAllNote HTTP/1.1" 200 527 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:05:57:19 +0000] "GET /api/v1/note/getAllNote HTTP/1.1" 200 541 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:05:57:46 +0000] "GET /api/v1/note/62ff26199292a518a138db9a HTTP/1.1" 200 300 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:05:57:57 +0000] "GET /api/v1/note/62ff26199292a518a138db9a HTTP/1.1" 200 307 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:05:58:56 +0000] "PUT /api/v1/note/62ff26199292a518a138db9a HTTP/1.1" 200 292 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:05:59:11 +0000] "GET /api/v1/note/62ff26199292a518a138db9a HTTP/1.1" 200 307 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:05:59:24 +0000] "GET /api/v1/note/62ff26199292a518a138db9a HTTP/1.1" 200 307 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:05:59:59 +0000] "GET /api/v1/note/62ff26199292a518a138db9a HTTP/1.1" 200 307 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:06:01:12 +0000] "GET /api/v1/note/62ff26199292a518a138db9a HTTP/1.1" 200 307 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:06:10:56 +0000] "GET /api/v1/note/getAllNote HTTP/1.1" 200 525 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:06:11:43 +0000] "GET /api/v1/note/getAllNote HTTP/1.1" 200 539 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:06:13:03 +0000] "GET /api/v1/note/62fdb699b71a3d141defe191 HTTP/1.1" 200 307 "-" "PostmanRuntime/7.29.2"
+

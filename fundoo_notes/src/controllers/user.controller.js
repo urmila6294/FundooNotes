@@ -34,10 +34,11 @@ export const userRegisteration = async (req, res, next) => {
       message: 'User Registeration successful'
     });
   } catch (error) {
-  }res.status(HttpStatus.BAD_REQUEST).json({
+  res.status(HttpStatus.BAD_REQUEST).json({
       code: HttpStatus.BAD_REQUEST,
       message: `${error}`
-    });
+  });
+}
   };
 
 /**
