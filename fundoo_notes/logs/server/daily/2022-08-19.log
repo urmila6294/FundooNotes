@@ -24,3 +24,507 @@ info: Connected to the database. {"timestamp":"2022-08-19T06:01:43.560Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T06:03:58.942Z"}
 info: Redis Connected {"timestamp":"2022-08-19T06:03:58.962Z"}
 info: Connected to the database. {"timestamp":"2022-08-19T06:03:58.975Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T07:57:52.894Z"}
+info: Redis Connected {"timestamp":"2022-08-19T07:57:52.917Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T07:57:52.933Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T08:24:46.934Z"}
+info: Redis Connected {"timestamp":"2022-08-19T08:24:46.955Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T08:24:46.979Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-08-19T08:24:53.839Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/note/undefined 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-08-19T08:24:54.027Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/note/undefined/isArchive 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-08-19T08:24:54.058Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/note/undefined/isDelete 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-08-19T08:24:54.096Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T08:30:25.062Z"}
+info: Redis Connected {"timestamp":"2022-08-19T08:30:25.090Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T08:30:25.108Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-08-19T08:30:30.531Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/note/undefined 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-08-19T08:30:30.685Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T08:48:59.948Z"}
+info: Redis Connected {"timestamp":"2022-08-19T08:48:59.967Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T08:48:59.986Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 3 characters long 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-08-19T08:49:00.207Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T08:50:32.731Z"}
+info: Redis Connected {"timestamp":"2022-08-19T08:50:32.754Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T08:50:32.771Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 3 characters long 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-08-19T08:50:32.962Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T08:56:54.034Z"}
+info: Redis Connected {"timestamp":"2022-08-19T08:56:54.057Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T08:56:54.077Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 3 characters long 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-08-19T08:56:54.264Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T09:02:10.904Z"}
+info: Redis Connected {"timestamp":"2022-08-19T09:02:10.929Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T09:02:10.949Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 3 characters long 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-08-19T09:02:11.133Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T09:04:30.370Z"}
+info: Redis Connected {"timestamp":"2022-08-19T09:04:30.386Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T09:04:30.404Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 3 characters long 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-08-19T09:04:30.602Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T11:53:40.411Z"}
+info: Redis Connected {"timestamp":"2022-08-19T11:53:40.480Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T11:53:40.530Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:02:51.783Z"}
+info: Redis Connected {"timestamp":"2022-08-19T12:02:51.804Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:02:51.818Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:03:08.640Z"}
+info: Redis Connected {"timestamp":"2022-08-19T12:03:08.665Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:03:08.691Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:04:07.503Z"}
+info: Redis Connected {"timestamp":"2022-08-19T12:04:07.522Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:04:07.544Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:04:17.996Z"}
+info: Redis Connected {"timestamp":"2022-08-19T12:04:18.024Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:04:18.041Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:04:40.687Z"}
+info: Redis Connected {"timestamp":"2022-08-19T12:04:40.732Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:04:40.747Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:04:55.574Z"}
+info: Redis Connected {"timestamp":"2022-08-19T12:04:55.597Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:04:55.615Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:05:05.395Z"}
+info: Redis Connected {"timestamp":"2022-08-19T12:05:05.414Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:05:05.430Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:05:25.248Z"}
+info: Redis Connected {"timestamp":"2022-08-19T12:05:25.264Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:05:25.277Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:05:34.028Z"}
+info: Redis Connected {"timestamp":"2022-08-19T12:05:34.054Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:05:34.071Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:05:46.447Z"}
+info: Redis Connected {"timestamp":"2022-08-19T12:05:46.476Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:05:46.492Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:22:21.109Z"}
+info: Redis Connected {"timestamp":"2022-08-19T12:22:21.127Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:22:21.143Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:22:27.981Z"}
+info: Redis Connected {"timestamp":"2022-08-19T12:22:27.997Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:22:28.013Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:22:43.233Z"}
+info: Redis Connected {"timestamp":"2022-08-19T12:22:43.248Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:22:43.262Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:32:44.791Z"}
+info: Redis Connected {"timestamp":"2022-08-19T12:32:44.836Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:32:44.896Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:33:57.305Z"}
+info: Redis Connected {"timestamp":"2022-08-19T12:33:57.337Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:33:57.366Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:40:22.823Z"}
+info: Redis Connected {"timestamp":"2022-08-19T12:40:22.837Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:40:22.850Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:41:57.442Z"}
+info: Redis Connected {"timestamp":"2022-08-19T12:41:57.467Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:41:57.489Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:42:43.093Z"}
+info: Redis Connected {"timestamp":"2022-08-19T12:42:43.118Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:42:43.143Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:44:06.060Z"}
+info: Redis Connected {"timestamp":"2022-08-19T12:44:06.086Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:44:06.102Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:44:30.471Z"}
+info: Redis Connected {"timestamp":"2022-08-19T12:44:30.495Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:44:30.535Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:47:29.920Z"}
+info: Redis Connected {"timestamp":"2022-08-19T12:47:29.986Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:47:30.017Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:48:47.662Z"}
+info: Redis Connected {"timestamp":"2022-08-19T12:48:47.680Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:48:47.693Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:48:58.949Z"}
+info: Redis Connected {"timestamp":"2022-08-19T12:48:58.975Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:48:58.997Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:49:19.751Z"}
+info: Redis Connected {"timestamp":"2022-08-19T12:49:19.769Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:49:19.782Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:49:36.820Z"}
+info: Redis Connected {"timestamp":"2022-08-19T12:49:36.844Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:49:36.857Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:50:01.431Z"}
+info: Redis Connected {"timestamp":"2022-08-19T12:50:01.448Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:50:01.461Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:50:28.806Z"}
+info: Redis Connected {"timestamp":"2022-08-19T12:50:28.830Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:50:28.850Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:51:26.765Z"}
+info: Redis Connected {"timestamp":"2022-08-19T12:51:26.783Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:51:26.796Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:51:48.613Z"}
+info: Redis Connected {"timestamp":"2022-08-19T12:51:48.634Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:51:48.647Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:52:04.815Z"}
+info: Redis Connected {"timestamp":"2022-08-19T12:52:04.834Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:52:04.850Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:52:12.537Z"}
+info: Redis Connected {"timestamp":"2022-08-19T12:52:12.565Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:52:12.584Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T13:00:17.123Z"}
+info: Redis Connected {"timestamp":"2022-08-19T13:00:17.157Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T13:00:17.179Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T13:01:32.922Z"}
+info: Redis Connected {"timestamp":"2022-08-19T13:01:32.939Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T13:01:32.954Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 3 characters long 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-08-19T13:01:33.163Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T13:10:09.262Z"}
+info: Redis Connected {"timestamp":"2022-08-19T13:10:09.284Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T13:10:09.301Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 3 characters long 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-08-19T13:10:09.455Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T13:12:26.075Z"}
+info: Redis Connected {"timestamp":"2022-08-19T13:12:26.093Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T13:12:26.137Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 3 characters long 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-08-19T13:12:26.275Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T13:19:10.347Z"}
+info: Redis Connected {"timestamp":"2022-08-19T13:19:10.365Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T13:19:10.381Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 3 characters long 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-08-19T13:19:10.566Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T13:19:19.883Z"}
+info: Redis Connected {"timestamp":"2022-08-19T13:19:19.897Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T13:19:19.908Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T13:22:27.547Z"}
+info: Redis Connected {"timestamp":"2022-08-19T13:22:27.579Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T13:22:27.617Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T13:22:59.870Z"}
+info: Redis Connected {"timestamp":"2022-08-19T13:22:59.886Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T13:22:59.902Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T13:23:50.376Z"}
+info: Redis Connected {"timestamp":"2022-08-19T13:23:50.394Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T13:23:50.410Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T13:24:23.034Z"}
+info: Redis Connected {"timestamp":"2022-08-19T13:24:23.063Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T13:24:23.084Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T13:24:35.454Z"}
+info: Redis Connected {"timestamp":"2022-08-19T13:24:35.485Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T13:24:35.519Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T13:25:05.218Z"}
+info: Redis Connected {"timestamp":"2022-08-19T13:25:05.236Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T13:25:05.253Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T13:25:33.467Z"}
+info: Redis Connected {"timestamp":"2022-08-19T13:25:33.485Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T13:25:33.503Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 3 characters long 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-08-19T13:25:33.673Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T13:27:46.914Z"}
+info: Redis Connected {"timestamp":"2022-08-19T13:27:46.938Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T13:27:46.960Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 3 characters long 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-08-19T13:27:47.140Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T13:33:35.168Z"}
+info: Redis Connected {"timestamp":"2022-08-19T13:33:35.191Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T13:33:35.221Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 3 characters long 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-08-19T13:33:35.424Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T13:34:34.108Z"}
+info: Redis Connected {"timestamp":"2022-08-19T13:34:34.133Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T13:34:34.152Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 3 characters long 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-08-19T13:34:34.332Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T13:38:07.952Z"}
+info: Redis Connected {"timestamp":"2022-08-19T13:38:07.975Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T13:38:07.991Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 3 characters long 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-08-19T13:38:08.159Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T13:42:10.125Z"}
+info: Redis Connected {"timestamp":"2022-08-19T13:42:10.156Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T13:42:10.177Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 3 characters long 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-08-19T13:42:10.350Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T13:44:37.909Z"}
+info: Redis Connected {"timestamp":"2022-08-19T13:44:37.925Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T13:44:37.937Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 3 characters long 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-19T13:45:14.251Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T13:45:37.744Z"}
+info: Redis Connected {"timestamp":"2022-08-19T13:45:37.807Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T13:45:37.863Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T13:45:50.572Z"}
+info: Redis Connected {"timestamp":"2022-08-19T13:45:50.596Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T13:45:50.616Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 3 characters long 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-08-19T13:45:50.825Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-08-19T13:45:56.298Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T13:49:28.575Z"}
+info: Redis Connected {"timestamp":"2022-08-19T13:49:28.615Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T13:49:28.634Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-19T13:50:53.357Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-19T13:51:03.428Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-19T13:51:29.383Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-19T13:52:14.533Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-19T13:52:15.903Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-19T13:54:08.001Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T13:55:47.195Z"}
+info: Redis Connected {"timestamp":"2022-08-19T13:55:47.210Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T13:55:47.223Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T13:57:09.499Z"}
+info: Redis Connected {"timestamp":"2022-08-19T13:57:09.513Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T13:57:09.523Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-19T14:00:44.025Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T14:02:59.535Z"}
+info: Redis Connected {"timestamp":"2022-08-19T14:02:59.565Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T14:02:59.594Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T14:08:02.062Z"}
+info: Redis Connected {"timestamp":"2022-08-19T14:08:02.083Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T14:08:02.097Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 3 characters long 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-08-19T14:08:02.260Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-08-19T14:08:07.179Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T14:15:50.522Z"}
+info: Redis Connected {"timestamp":"2022-08-19T14:15:50.542Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T14:15:50.559Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-19T14:15:51.490Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T14:16:59.264Z"}
+info: Redis Connected {"timestamp":"2022-08-19T14:16:59.279Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T14:16:59.293Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T14:18:19.874Z"}
+info: Redis Connected {"timestamp":"2022-08-19T14:18:19.900Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T14:18:19.927Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T14:21:01.998Z"}
+info: Redis Connected {"timestamp":"2022-08-19T14:21:02.022Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T14:21:02.038Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T14:21:35.402Z"}
+info: Redis Connected {"timestamp":"2022-08-19T14:21:35.425Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T14:21:35.447Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T14:21:57.201Z"}
+info: Redis Connected {"timestamp":"2022-08-19T14:21:57.221Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T14:21:57.235Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T14:22:08.713Z"}
+info: Redis Connected {"timestamp":"2022-08-19T14:22:08.729Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T14:22:08.743Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-19T14:22:53.689Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-19T14:22:55.137Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-19T14:22:57.960Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-19T14:22:59.441Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T14:31:22.297Z"}
+info: Redis Connected {"timestamp":"2022-08-19T14:31:22.314Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T14:31:22.326Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T14:33:18.040Z"}
+info: Redis Connected {"timestamp":"2022-08-19T14:33:18.061Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T14:33:18.075Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-19T14:33:19.425Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T14:39:10.153Z"}
+info: Redis Connected {"timestamp":"2022-08-19T14:39:10.178Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T14:39:10.254Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T14:41:34.229Z"}
+info: Redis Connected {"timestamp":"2022-08-19T14:41:34.251Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T14:41:34.268Z"}

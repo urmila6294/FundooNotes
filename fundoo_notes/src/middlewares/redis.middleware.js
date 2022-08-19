@@ -1,5 +1,5 @@
  import { client } from "../config/redis";
- import HttpStatus from 'http-status-codes'
+ //import HttpStatus from 'http-status-codes'
 
  export const redisAuth = async(req,res,next) =>{
     const value = await client.get('getAllData');
