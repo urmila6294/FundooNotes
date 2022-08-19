@@ -1,0 +1,26 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T02:24:59.157Z"}
+info: Redis Connected {"timestamp":"2022-08-19T02:24:59.173Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T02:24:59.196Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T02:27:06.810Z"}
+info: Redis Connected {"timestamp":"2022-08-19T02:27:06.827Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T02:27:06.842Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T02:27:22.732Z"}
+info: Redis Connected {"timestamp":"2022-08-19T02:27:22.755Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T02:27:22.773Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T05:50:23.791Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T05:50:23.867Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T05:56:40.260Z"}
+info: Redis Connected {"timestamp":"2022-08-19T05:56:40.283Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T05:56:40.321Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T06:01:10.416Z"}
+info: Redis Connected {"timestamp":"2022-08-19T06:01:10.431Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T06:01:10.442Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T06:01:37.237Z"}
+info: Redis Connected {"timestamp":"2022-08-19T06:01:37.257Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T06:01:37.277Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T06:01:43.509Z"}
+info: Redis Connected {"timestamp":"2022-08-19T06:01:43.537Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T06:01:43.560Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T06:03:58.942Z"}
+info: Redis Connected {"timestamp":"2022-08-19T06:03:58.962Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T06:03:58.975Z"}
